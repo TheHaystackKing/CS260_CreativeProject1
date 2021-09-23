@@ -2,48 +2,52 @@
 <!--https://www.art.yale.edu/-->
 
 <!--Yale Blue html code: #0f4d92-->
+<!--Yale Art Gallery also uses this color combo, https://artgallery.yale.edu/, it's an option but I like the blue and white more-->
 <!--Yale Blue and white could make for a nice color combination-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel = "stylesheet" href="styles.css"/>
+    <link rel="shortcut icon" href="/images/Yale_School_of_Art.png" />
     <title>Home-Yale School of Art</title>
   </head>
   <body>
-
-    <!--We will need to move this into a bootstrap bar and update the links, I just moved this over here so we have the html-->
-        <ul class="header_box">
-                    <li class="main-nav__item">
-                        <a href="/" class="sidebar_link_main">Home</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="/about" class="sidebar_link_main">About the School</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="/apply" class="sidebar_link_main">Apply to the School</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="/exhibitions" class="sidebar_link_main">Exhibitions</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="/publications" class="sidebar_link_main">Publications</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="/news" class="sidebar_link_main">News</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a href="/public-events" class="sidebar_link_main">Public Events</a>
-                    </li>
+    <!--Nav Bar-->
+    <nav class=" navbar navbar-expand-lg navbar-light navbar_primary">
+      <a class="navbar-brand" href="/">
+        <div class="logo-image">
+              <img src="/images/Yale_School_of_Art.png" class="img-fluid">
+        </div>
+      </a>
+      <a class="navbar-brand" href="index.html">Yale School of Art</a>
+      <button class="navbar-toggler navbar_secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About the School</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="exhibitions.html">Exhibitions</a>
+          </li>
+          <!--Future pages to add: APPLY, PULICATIONS, NEWS, PUBLIC EVENTS-->
         </ul>
+      </div>
+    </nav>
 
-    <h1> Yale School of Art </h1>
+    <img src="/images/school_of_art.jpg" alt="Yale School of Art" class="responsive pad-top">
+    <h1 class="pad-top"> Yale School of Art </h1>
 
 
 <!--Both the image and this textbox is going to need reformating to look nicer-->
     <h2>Happening This Week</h2>
-
-    <img src = "/images/poster.jpg"/>
 
     <div class="event-text" style="max-height: 240.0em" tabindex="0">
 
@@ -162,6 +166,8 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
