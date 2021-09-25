@@ -50,8 +50,8 @@ nav a:hover{
 
 .container {
     position: relative;
-    color: white;
   }
+
   
   /* Bottom left text */
   .bottom-left {
@@ -84,7 +84,17 @@ nav a:hover{
   /* Centered text */
   .centered {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  footer {
+    background-color: rgba(0, 53, 107);
+    color: white;
+    text-align: center;
+  }
+
+  footer a {
+    color: white;
   }
