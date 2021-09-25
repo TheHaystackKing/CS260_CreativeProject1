@@ -26,6 +26,7 @@ nav a:hover{
 /*Body*/
 .pad-top {
     padding-top: 65px;
+    text-align: center;
 }
 
 .logo-image{
@@ -46,47 +47,54 @@ nav a:hover{
     height: auto;
     color: white;
     background-color: rgba(0, 53, 107, .7) !important;
+
 }
 
 .container {
     position: relative;
   }
 
-  
+
   /* Bottom left text */
   .bottom-left {
     position: absolute;
     bottom: 8px;
     left: 16px;
   }
-  
+
   /* Top left text */
   .top-left {
     position: absolute;
     top: 100px;
     left: 16px;
   }
-  
+
   /* Top right text */
   .top-right {
     position: absolute;
     top: 100px;
     right: 16px;
   }
-  
+
   /* Bottom right text */
   .bottom-right {
     position: absolute;
     bottom: 8px;
     right: 16px;
   }
-  
+
   /* Centered text */
   .centered {
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .site-header {
+    font-size:70pt;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   footer {
